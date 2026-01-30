@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>ATM Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+    <style>
+        body{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}
+        #map{height:100vh;width:100%;background:#f0f0f0;}
+        .leaflet-marker-icon{background:transparent;border:none;}
+        .popup{min-width:280px;max-width:320px;font-size:13px;}
+        .popup .header{background:#f8fafc;padding:12px;border-bottom:1px solid #e2e8f0;margin:-13px -13px 10px -13px;border-radius:12px 12px 0 0;font-weight:600;color:#1e293b;}
+        .popup .body{background:#fff;padding:8px;border-radius:0 0 12px 12px;}
+        .popup .row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #f1f5f9;}
+        .popup .row:last-child{border-bottom:none;}
+        .popup .label{color:#64748b;font-weight:500;}
+        .popup .value{color:#0f172a;text-align:right;max-width:60%;word-wrap:break-word;}
+        .leaflet-container a.leaflet-popup-close-button{top:8px;right:8px;font-size:20px;color:#64748b;}
+    </style>
+    
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script>
+    
+    const data = {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "RCTVYBUBYCE", "Model ID": "NCR6684", "Serial Number": 24554322456, "Asset Tag": 1001, "Company": "ABC", "Transit": 3330.0, "Location": "Building false Creek", "Address": "103 2nd Ave West", "City": "Vancouver ", "State/Province": "BC", "Postal Code": "V5Y1B8", "Country": "CA", "Environment ": "PRODUCTION ", "FQDN": "RCTVYBUBYCE.ABC.NET", "IP Address": "192.168.1.1", "Mac Address": "03:5C:99:45:06:56", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x64", "full_address": "103 2nd Ave West Vancouver BC V5Y1B8 CA", "latitude": 49.2694767, "longitude": -123.106812}, "geometry": {"type": "Point", "coordinates": [-123.106812, 49.2694767]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "TVYVYCEXTBIG", "Model ID": "NCR6684", "Serial Number": 95445774223, "Asset Tag": 1002, "Company": "XYZ", "Transit": 3090.0, "Location": "Building - McKenzie Tower", "Address": "4 High Street SE", "City": "Calgary", "State/Province": "AB", "Postal Code": "T2Z3TB", "Country": "CA", "Environment ": "PRODUCTION ", "FQDN": "TVYVYCEXTBIG.XYZ.NET", "IP Address": "192.168.1.2", "Mac Address": "03:5C:99:34:90:30", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x32", "full_address": "4 High Street SE Calgary AB T2Z3TB CA", "latitude": 50.9151529, "longitude": -113.9606692}, "geometry": {"type": "Point", "coordinates": [-113.9606692, 50.9151529]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "TCRCTVYBUBU", "Model ID": "NCR6684", "Serial Number": 45678754321, "Asset Tag": 1003, "Company": "ABC", "Transit": 3097.0, "Location": "Building - Cambie", "Address": "480 SW Marine Drive", "City": "Vancouver ", "State/Province": "BC", "Postal Code": "V5X0C4", "Country": "CA", "Environment ": "PRODUCTION ", "FQDN": "TCRCTVYBUBU.ABC.COM", "IP Address": "192.168.1.3", "Mac Address": "03:5C:99:00:60:56", "Default Gateway": "192.169.1.0", "OS": "Windows 10 Enterprise x64", "full_address": "480 SW Marine Drive Vancouver BC V5X0C4 CA", "latitude": 49.2095712, "longitude": -123.1165849}, "geometry": {"type": "Point", "coordinates": [-123.1165849, 49.2095712]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "DSFGARGRVRI", "Model ID": "NCR6684", "Serial Number": 95415913484, "Asset Tag": 1004, "Company": "XYZ", "Transit": 3090.0, "Location": "Building - McKenzie Tower", "Address": "4 High Street SE", "City": "Calgary", "State/Province": "AB", "Postal Code": "T2Z3TB", "Country": "CA", "Environment ": "PRODUCTION ", "FQDN": "DSFGARGRVRI.XYZ.NET", "IP Address": "192.168.1.4", "Mac Address": "03:5C:99:98:10:28", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x32", "full_address": "4 High Street SE Calgary AB T2Z3TB CA", "latitude": 50.9151529, "longitude": -113.9606692}, "geometry": {"type": "Point", "coordinates": [-113.96071192633693, 50.91507176184885]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "FVSDARGRVRO", "Model ID": "NCR6684", "Serial Number": 26948168184, "Asset Tag": 1005, "Company": "ABC", "Transit": 3097.0, "Location": "Building - Cambie", "Address": "480 SW Marine Drive", "City": "Vancouver ", "State/Province": "BC", "Postal Code": "V5X0C4", "Country": "CA", "Environment ": "PRODUCTION ", "FQDN": "FVSDARGRVRO.ABC.COM", "IP Address": "192.168.1.5", "Mac Address": "03:5C:13:45:60:89", "Default Gateway": "192.169.1.0", "OS": "Windows 10 Enterprise x64", "full_address": "480 SW Marine Drive Vancouver BC V5X0C4 CA", "latitude": 49.2095712, "longitude": -123.1165849}, "geometry": {"type": "Point", "coordinates": [-123.1165444753845, 49.20958548343493]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "FAGRWGBRGA", "Model ID": "NCR6684", "Serial Number": 21816887871, "Asset Tag": 1006, "Company": "ABC", "Transit": 2798.0, "Location": NaN, "Address": "438 UNIVERSITY AVENUE", "City": "Toronto", "State/Province": "ON", "Postal Code": "M5G2K8", "Country": "CA", "Environment ": "PRODUCTION ", "FQDN": "FAGRWGBRGA.XYZ.NET", "IP Address": "192.168.1.6", "Mac Address": "03:5C:13:45:60:90", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x65", "full_address": "438 UNIVERSITY AVENUE Toronto ON M5G2K8 CA", "latitude": 43.654697, "longitude": -79.388596}, "geometry": {"type": "Point", "coordinates": [-79.388596, 43.654697]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "FDSAGRVFRGR", "Model ID": "NCR6684", "Serial Number": 16874818484, "Asset Tag": 1007, "Company": "ABC", "Transit": 2487.0, "Location": NaN, "Address": "123 QUEEN STREET WEST", "City": "Toronto", "State/Province": "ON", "Postal Code": "M5H2M9", "Country": "CA", "Environment ": "PRODUCTION ", "FQDN": "FDSAGRVFRGR.XYZ.NET", "IP Address": "192.168.1.7", "Mac Address": "03:5C:13:45:60:91", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x65", "full_address": "123 QUEEN STREET WEST Toronto ON M5H2M9 CA", "latitude": 43.6511085, "longitude": -79.3834744}, "geometry": {"type": "Point", "coordinates": [-79.3834744, 43.6511085]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "FDVBFABFBDF", "Model ID": "NCR6684", "Serial Number": 16874818485, "Asset Tag": 1008, "Company": "ABC", "Transit": NaN, "Location": NaN, "Address": "123 QUEEN STREET WEST", "City": "Toronto", "State/Province": "ON", "Postal Code": "M5H2M9", "Country": "CA", "Environment ": "PRODUCTION ", "FQDN": "FDVBFABFBDF.XYZ.NET", "IP Address": "192.168.1.8", "Mac Address": "03:5C:13:45:60:92", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x65", "full_address": "123 QUEEN STREET WEST Toronto ON M5H2M9 CA", "latitude": 43.6511085, "longitude": -79.3834744}, "geometry": {"type": "Point", "coordinates": [-79.38353539722843, 43.65102886551051]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "BGFSHGNBGX", "Model ID": "NCR6684", "Serial Number": 16874818486, "Asset Tag": 1009, "Company": "ABC", "Transit": NaN, "Location": "Pace Plaza", "Address": "1 Pace Plaza", "City": "New York", "State/Province": "NY", "Postal Code": "10038", "Country": "US", "Environment ": "PRODUCTION ", "FQDN": "BGFSHGNBGX.XYZ.NET", "IP Address": "192.168.1.9", "Mac Address": "03:5C:13:45:60:93", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x65", "full_address": "1 Pace Plaza New York NY 10038 US", "latitude": 40.7111164, "longitude": -74.0048044}, "geometry": {"type": "Point", "coordinates": [-74.0048044, 40.7111164]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "GJNTSTHGTTD", "Model ID": "NCR6684", "Serial Number": 16874818487, "Asset Tag": 1010, "Company": "ABC", "Transit": NaN, "Location": "7-Eleven", "Address": "48 N Wells St", "City": "Chicago", "State/Province": "IL", "Postal Code": "60606", "Country": "US", "Environment ": "PRODUCTION ", "FQDN": "GJNTSTHGTTD.XYZ.NET", "IP Address": "192.168.1.10", "Mac Address": "03:5C:13:45:60:94", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x65", "full_address": "48 N Wells St Chicago IL 60606 US", "latitude": 41.8828047, "longitude": -87.6339655}, "geometry": {"type": "Point", "coordinates": [-87.6339655, 41.8828047]}}, {"type": "Feature", "properties": {"Manufacturer": "NCR", "Hardware": "Hardware-ABM", "Name": "NGDJTRJTRHR", "Model ID": "NCR6684", "Serial Number": 16874818488, "Asset Tag": 1011, "Company": "ABC", "Transit": NaN, "Location": "7-Eleven", "Address": "135 W Madison", "City": "Chicago", "State/Province": "IL", "Postal Code": "60603", "Country": "US", "Environment ": "PRODUCTION ", "FQDN": "NGDJTRJTRHR.XYZ.NET", "IP Address": "192.168.1.11", "Mac Address": "03:5C:13:45:60:95", "Default Gateway": NaN, "OS": "Windows 10 Enterprise x65", "full_address": "135 W Madison Chicago IL 60603 US", "latitude": 41.8818534, "longitude": -87.6317924}, "geometry": {"type": "Point", "coordinates": [-87.6317924, 41.8818534]}}]};
+    const map = L.map('map').setView([20, 0], 2);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution:'&copy; OSM & CARTO', subdomains:'abcd', maxZoom:20
+    }).addTo(map);
+
+    const markers = L.markerClusterGroup({maxClusterRadius:40, spiderfyOnMaxZoom:true});
+    
+    data.features.forEach((ft) => {
+        const coords = ft.geometry.coordinates;
+        const props = ft.properties;
+        
+        const marker = L.marker([coords[1], coords[0]]);
+        
+        let rows = '';
+        for (const [k,v] of Object.entries(props)) {
+            if (v === null || v === '' || k==='latitude' || k==='longitude' || k==='full_address') continue;
+            rows += `<div class="row"><span class="label">${k}</span><span class="value">${v}</span></div>`;
+        }
+        
+        const popupContent = `
+        <div class="popup">
+            <div class="header">ATM Details</div>
+            <div class="body">${rows}</div>
+        </div>`;
+        
+        marker.bindPopup(popupContent, {maxWidth:300});
+        markers.addLayer(marker);
+    });
+    
+    map.addLayer(markers);
+    if (markers.getBounds().isValid()) {
+        map.fitBounds(markers.getBounds().pad(0.1), {maxZoom: 4});
+    }
+    
+    </script>
+</body>
+</html>
