@@ -20,6 +20,7 @@
       },
       "properties": {
         "Location": "103 2nd Ave West, Vancouver , BC, V5Y1B8, CA",
+        "Count": "1 ATM",
         "Asset Tag": "1001",
         "Serial Number": "24554322456",
         "Model ID": "NCR6684",
@@ -44,9 +45,8 @@
       },
       "properties": {
         "Location": "4 High Street SE, Calgary, AB, T2Z3TB, CA",
-        "\u26a0\ufe0f Multiple ATMs": "2 units at this location",
-        "ATM #1 Details": "Asset Tag: 1002\nSerial: 95445774223\nModel: NCR6684\nTransit: 3090\nIP: 192.168.1.2\nFQDN: TVYVYCEXTBIG.XYZ.NET",
-        "ATM #2 Details": "Asset Tag: 1004\nSerial: 95415913484\nModel: NCR6684\nTransit: 3090\nIP: 192.168.1.4\nFQDN: DSFGARGRVRI.XYZ.NET"
+        "Count": "2 ATMs",
+        "ATM Details (Scroll down)": "LOCATION: 4 High Street SE, Calgary, AB, T2Z3TB, CA\nTOTAL ATMS: 2\n\n--- ATM #1 ---\nAsset Tag: 1002\nSerial Number: 95445774223\nModel ID: NCR6684\nManufacturer: NCR\nCompany: XYZ\nTransit: 3090\nIP Address: 192.168.1.2\nFQDN: TVYVYCEXTBIG.XYZ.NET\nOS: Windows 10 Enterprise x32\n\n--- ATM #2 ---\nAsset Tag: 1004\nSerial Number: 95415913484\nModel ID: NCR6684\nManufacturer: NCR\nCompany: XYZ\nTransit: 3090\nIP Address: 192.168.1.4\nFQDN: DSFGARGRVRI.XYZ.NET\nOS: Windows 10 Enterprise x32\n"
       }
     },
     {
@@ -60,9 +60,8 @@
       },
       "properties": {
         "Location": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA",
-        "\u26a0\ufe0f Multiple ATMs": "2 units at this location",
-        "ATM #1 Details": "Asset Tag: 1003\nSerial: 45678754321\nModel: NCR6684\nTransit: 3097\nIP: 192.168.1.3\nFQDN: TCRCTVYBUBU.ABC.COM",
-        "ATM #2 Details": "Asset Tag: 1005\nSerial: 26948168184\nModel: NCR6684\nTransit: 3097\nIP: 192.168.1.5\nFQDN: FVSDARGRVRO.ABC.COM"
+        "Count": "2 ATMs",
+        "ATM Details (Scroll down)": "LOCATION: 480 SW Marine Drive, Vancouver , BC, V5X0C4, CA\nTOTAL ATMS: 2\n\n--- ATM #1 ---\nAsset Tag: 1003\nSerial Number: 45678754321\nModel ID: NCR6684\nManufacturer: NCR\nCompany: ABC\nTransit: 3097\nIP Address: 192.168.1.3\nFQDN: TCRCTVYBUBU.ABC.COM\nOS: Windows 10 Enterprise x64\n\n--- ATM #2 ---\nAsset Tag: 1005\nSerial Number: 26948168184\nModel ID: NCR6684\nManufacturer: NCR\nCompany: ABC\nTransit: 3097\nIP Address: 192.168.1.5\nFQDN: FVSDARGRVRO.ABC.COM\nOS: Windows 10 Enterprise x64\n"
       }
     },
     {
@@ -76,6 +75,7 @@
       },
       "properties": {
         "Location": "438 UNIVERSITY AVENUE, Toronto, ON, M5G2K8, CA",
+        "Count": "1 ATM",
         "Asset Tag": "1006",
         "Serial Number": "21816887871",
         "Model ID": "NCR6684",
@@ -100,9 +100,8 @@
       },
       "properties": {
         "Location": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA",
-        "\u26a0\ufe0f Multiple ATMs": "2 units at this location",
-        "ATM #1 Details": "Asset Tag: 1007\nSerial: 16874818484\nModel: NCR6684\nTransit: 2487\nIP: 192.168.1.7\nFQDN: FDSAGRVFRGR.XYZ.NET",
-        "ATM #2 Details": "Asset Tag: 1008\nSerial: 16874818485\nModel: NCR6684\nTransit: \nIP: 192.168.1.8\nFQDN: FDVBFABFBDF.XYZ.NET"
+        "Count": "2 ATMs",
+        "ATM Details (Scroll down)": "LOCATION: 123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA\nTOTAL ATMS: 2\n\n--- ATM #1 ---\nAsset Tag: 1007\nSerial Number: 16874818484\nModel ID: NCR6684\nManufacturer: NCR\nCompany: ABC\nTransit: 2487\nIP Address: 192.168.1.7\nFQDN: FDSAGRVFRGR.XYZ.NET\nOS: Windows 10 Enterprise x65\n\n--- ATM #2 ---\nAsset Tag: 1008\nSerial Number: 16874818485\nModel ID: NCR6684\nManufacturer: NCR\nCompany: ABC\nTransit: \nIP Address: 192.168.1.8\nFQDN: FDVBFABFBDF.XYZ.NET\nOS: Windows 10 Enterprise x65\n"
       }
     },
     {
@@ -116,6 +115,7 @@
       },
       "properties": {
         "Location": "1 Pace Plaza, New York, NY, 10038, US",
+        "Count": "1 ATM",
         "Asset Tag": "1009",
         "Serial Number": "16874818486",
         "Model ID": "NCR6684",
@@ -140,6 +140,7 @@
       },
       "properties": {
         "Location": "48 N Wells St, Chicago, IL, 60606, US",
+        "Count": "1 ATM",
         "Asset Tag": "1010",
         "Serial Number": "16874818487",
         "Model ID": "NCR6684",
@@ -164,6 +165,7 @@
       },
       "properties": {
         "Location": "135 W Madison, Chicago, IL, 60603, US",
+        "Count": "1 ATM",
         "Asset Tag": "1011",
         "Serial Number": "16874818488",
         "Model ID": "NCR6684",
