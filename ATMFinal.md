@@ -1,14 +1,8 @@
 # ATM Deployment Map
 
 **Total ATMs:** 11  
-**Unique Locations:** 8  
+**Locations:** 8  
 
-## 🏢 Locations with Multiple ATMs
-
-- **4 High Street SE, Calgary, AB, T2Z3TB, CA**: 2 ATMs  
-  - Asset Tag: 1002, S/N: 95445774223\n  - Asset Tag: 1004, S/N: 95415913484\n- **480 SW Marine Drive, Vancouver , BC, V5X0C4, CA**: 2 ATMs  
-  - Asset Tag: 1003, S/N: 45678754321\n  - Asset Tag: 1005, S/N: 26948168184\n- **123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA**: 2 ATMs  
-  - Asset Tag: 1007, S/N: 16874818484\n  - Asset Tag: 1008, S/N: 16874818485\n
 ## Map View
 
 ```geojson
@@ -50,10 +44,9 @@
       },
       "properties": {
         "Location": "4 High Street SE, Calgary, AB, T2Z3TB, CA",
-        "\u26a0\ufe0f  Multiple ATMs": "2 units at this location",
-        "ATM Details": "ATM #1: Asset Tag: 1002, S/N: 95445774223, Model: NCR6684, Transit: 3090, IP: 192.168.1.2 | ATM #2: Asset Tag: 1004, S/N: 95415913484, Model: NCR6684, Transit: 3090, IP: 192.168.1.4",
-        "All Asset Tags": "1002, 1004",
-        "All Serial Numbers": "95445774223, 95415913484"
+        "\u26a0\ufe0f Multiple ATMs": "2 units at this location",
+        "ATM #1 Details": "Asset Tag: 1002\nSerial: 95445774223\nModel: NCR6684\nTransit: 3090\nIP: 192.168.1.2\nFQDN: TVYVYCEXTBIG.XYZ.NET",
+        "ATM #2 Details": "Asset Tag: 1004\nSerial: 95415913484\nModel: NCR6684\nTransit: 3090\nIP: 192.168.1.4\nFQDN: DSFGARGRVRI.XYZ.NET"
       }
     },
     {
@@ -67,10 +60,9 @@
       },
       "properties": {
         "Location": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA",
-        "\u26a0\ufe0f  Multiple ATMs": "2 units at this location",
-        "ATM Details": "ATM #1: Asset Tag: 1003, S/N: 45678754321, Model: NCR6684, Transit: 3097, IP: 192.168.1.3 | ATM #2: Asset Tag: 1005, S/N: 26948168184, Model: NCR6684, Transit: 3097, IP: 192.168.1.5",
-        "All Asset Tags": "1003, 1005",
-        "All Serial Numbers": "45678754321, 26948168184"
+        "\u26a0\ufe0f Multiple ATMs": "2 units at this location",
+        "ATM #1 Details": "Asset Tag: 1003\nSerial: 45678754321\nModel: NCR6684\nTransit: 3097\nIP: 192.168.1.3\nFQDN: TCRCTVYBUBU.ABC.COM",
+        "ATM #2 Details": "Asset Tag: 1005\nSerial: 26948168184\nModel: NCR6684\nTransit: 3097\nIP: 192.168.1.5\nFQDN: FVSDARGRVRO.ABC.COM"
       }
     },
     {
@@ -108,10 +100,9 @@
       },
       "properties": {
         "Location": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA",
-        "\u26a0\ufe0f  Multiple ATMs": "2 units at this location",
-        "ATM Details": "ATM #1: Asset Tag: 1007, S/N: 16874818484, Model: NCR6684, Transit: 2487, IP: 192.168.1.7 | ATM #2: Asset Tag: 1008, S/N: 16874818485, Model: NCR6684, Transit: , IP: 192.168.1.8",
-        "All Asset Tags": "1007, 1008",
-        "All Serial Numbers": "16874818484, 16874818485"
+        "\u26a0\ufe0f Multiple ATMs": "2 units at this location",
+        "ATM #1 Details": "Asset Tag: 1007\nSerial: 16874818484\nModel: NCR6684\nTransit: 2487\nIP: 192.168.1.7\nFQDN: FDSAGRVFRGR.XYZ.NET",
+        "ATM #2 Details": "Asset Tag: 1008\nSerial: 16874818485\nModel: NCR6684\nTransit: \nIP: 192.168.1.8\nFQDN: FDVBFABFBDF.XYZ.NET"
       }
     },
     {
@@ -192,4 +183,4 @@
 
 ---
 
-**Note:** See `atms.csv` for complete inventory.
+**Full inventory:** See `atms.csv` for complete specifications.
