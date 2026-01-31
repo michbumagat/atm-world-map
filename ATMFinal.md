@@ -1,4 +1,4 @@
-# ATM Map
+# ATM Deployment Map
 
 **Total ATMs:** 11  
 **Locations:** 8  
