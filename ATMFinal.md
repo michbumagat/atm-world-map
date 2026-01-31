@@ -1,4 +1,4 @@
-# ATM Deployment Map
+# ATM Map
 
 **Total ATMs:** 11  
 **Locations:** 8  
@@ -240,7 +240,3 @@
   ]
 }
 ```
-
----
-
-**Full inventory:** See `atms.csv` for complete specifications.
