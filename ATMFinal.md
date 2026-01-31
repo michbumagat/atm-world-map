@@ -27,11 +27,10 @@
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "3330",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x64",
-        "FQDN": "RCTVYBUBYCE.ABC.NET",
         "IP Address": "192.168.1.1",
-        "MAC Address": "03:5C:99:45:06:56"
+        "FQDN": "RCTVYBUBYCE.ABC.NET",
+        "OS": "Windows 10 Enterprise x64",
+        "Environment": "N/A"
       }
     },
     {
@@ -46,7 +45,28 @@
       "properties": {
         "Location": "4 High Street SE, Calgary, AB, T2Z3TB, CA",
         "Count": "2 ATMs",
-        "ATM Details (Scroll down)": "LOCATION: 4 High Street SE, Calgary, AB, T2Z3TB, CA\nTOTAL ATMS: 2\n\n--- ATM #1 ---\nAsset Tag: 1002\nSerial Number: 95445774223\nModel ID: NCR6684\nManufacturer: NCR\nCompany: XYZ\nTransit: 3090\nIP Address: 192.168.1.2\nFQDN: TVYVYCEXTBIG.XYZ.NET\nOS: Windows 10 Enterprise x32\n\n--- ATM #2 ---\nAsset Tag: 1004\nSerial Number: 95415913484\nModel ID: NCR6684\nManufacturer: NCR\nCompany: XYZ\nTransit: 3090\nIP Address: 192.168.1.4\nFQDN: DSFGARGRVRI.XYZ.NET\nOS: Windows 10 Enterprise x32\n"
+        "--- ATM #1 ---": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550",
+        "Asset Tag_1": "1002",
+        "Serial Number_1": "95445774223",
+        "Model ID_1": "NCR6684",
+        "Manufacturer_1": "NCR",
+        "Company_1": "XYZ",
+        "Transit_1": "3090",
+        "IP Address_1": "192.168.1.2",
+        "FQDN_1": "TVYVYCEXTBIG.XYZ.NET",
+        "OS_1": "Windows 10 Enterprise x32",
+        "Environment_1": "N/A",
+        "--- ATM #2 ---": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550",
+        "Asset Tag_2": "1004",
+        "Serial Number_2": "95415913484",
+        "Model ID_2": "NCR6684",
+        "Manufacturer_2": "NCR",
+        "Company_2": "XYZ",
+        "Transit_2": "3090",
+        "IP Address_2": "192.168.1.4",
+        "FQDN_2": "DSFGARGRVRI.XYZ.NET",
+        "OS_2": "Windows 10 Enterprise x32",
+        "Environment_2": "N/A"
       }
     },
     {
@@ -61,7 +81,28 @@
       "properties": {
         "Location": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA",
         "Count": "2 ATMs",
-        "ATM Details (Scroll down)": "LOCATION: 480 SW Marine Drive, Vancouver , BC, V5X0C4, CA\nTOTAL ATMS: 2\n\n--- ATM #1 ---\nAsset Tag: 1003\nSerial Number: 45678754321\nModel ID: NCR6684\nManufacturer: NCR\nCompany: ABC\nTransit: 3097\nIP Address: 192.168.1.3\nFQDN: TCRCTVYBUBU.ABC.COM\nOS: Windows 10 Enterprise x64\n\n--- ATM #2 ---\nAsset Tag: 1005\nSerial Number: 26948168184\nModel ID: NCR6684\nManufacturer: NCR\nCompany: ABC\nTransit: 3097\nIP Address: 192.168.1.5\nFQDN: FVSDARGRVRO.ABC.COM\nOS: Windows 10 Enterprise x64\n"
+        "--- ATM #1 ---": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550",
+        "Asset Tag_1": "1003",
+        "Serial Number_1": "45678754321",
+        "Model ID_1": "NCR6684",
+        "Manufacturer_1": "NCR",
+        "Company_1": "ABC",
+        "Transit_1": "3097",
+        "IP Address_1": "192.168.1.3",
+        "FQDN_1": "TCRCTVYBUBU.ABC.COM",
+        "OS_1": "Windows 10 Enterprise x64",
+        "Environment_1": "N/A",
+        "--- ATM #2 ---": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550",
+        "Asset Tag_2": "1005",
+        "Serial Number_2": "26948168184",
+        "Model ID_2": "NCR6684",
+        "Manufacturer_2": "NCR",
+        "Company_2": "ABC",
+        "Transit_2": "3097",
+        "IP Address_2": "192.168.1.5",
+        "FQDN_2": "FVSDARGRVRO.ABC.COM",
+        "OS_2": "Windows 10 Enterprise x64",
+        "Environment_2": "N/A"
       }
     },
     {
@@ -82,11 +123,10 @@
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "2798",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x65",
-        "FQDN": "FAGRWGBRGA.XYZ.NET",
         "IP Address": "192.168.1.6",
-        "MAC Address": "03:5C:13:45:60:90"
+        "FQDN": "FAGRWGBRGA.XYZ.NET",
+        "OS": "Windows 10 Enterprise x65",
+        "Environment": "N/A"
       }
     },
     {
@@ -101,7 +141,28 @@
       "properties": {
         "Location": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA",
         "Count": "2 ATMs",
-        "ATM Details (Scroll down)": "LOCATION: 123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA\nTOTAL ATMS: 2\n\n--- ATM #1 ---\nAsset Tag: 1007\nSerial Number: 16874818484\nModel ID: NCR6684\nManufacturer: NCR\nCompany: ABC\nTransit: 2487\nIP Address: 192.168.1.7\nFQDN: FDSAGRVFRGR.XYZ.NET\nOS: Windows 10 Enterprise x65\n\n--- ATM #2 ---\nAsset Tag: 1008\nSerial Number: 16874818485\nModel ID: NCR6684\nManufacturer: NCR\nCompany: ABC\nTransit: \nIP Address: 192.168.1.8\nFQDN: FDVBFABFBDF.XYZ.NET\nOS: Windows 10 Enterprise x65\n"
+        "--- ATM #1 ---": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550",
+        "Asset Tag_1": "1007",
+        "Serial Number_1": "16874818484",
+        "Model ID_1": "NCR6684",
+        "Manufacturer_1": "NCR",
+        "Company_1": "ABC",
+        "Transit_1": "2487",
+        "IP Address_1": "192.168.1.7",
+        "FQDN_1": "FDSAGRVFRGR.XYZ.NET",
+        "OS_1": "Windows 10 Enterprise x65",
+        "Environment_1": "N/A",
+        "--- ATM #2 ---": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550",
+        "Asset Tag_2": "1008",
+        "Serial Number_2": "16874818485",
+        "Model ID_2": "NCR6684",
+        "Manufacturer_2": "NCR",
+        "Company_2": "ABC",
+        "Transit_2": "",
+        "IP Address_2": "192.168.1.8",
+        "FQDN_2": "FDVBFABFBDF.XYZ.NET",
+        "OS_2": "Windows 10 Enterprise x65",
+        "Environment_2": "N/A"
       }
     },
     {
@@ -122,11 +183,10 @@
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x65",
-        "FQDN": "BGFSHGNBGX.XYZ.NET",
         "IP Address": "192.168.1.9",
-        "MAC Address": "03:5C:13:45:60:93"
+        "FQDN": "BGFSHGNBGX.XYZ.NET",
+        "OS": "Windows 10 Enterprise x65",
+        "Environment": "N/A"
       }
     },
     {
@@ -147,11 +207,10 @@
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x65",
-        "FQDN": "GJNTSTHGTTD.XYZ.NET",
         "IP Address": "192.168.1.10",
-        "MAC Address": "03:5C:13:45:60:94"
+        "FQDN": "GJNTSTHGTTD.XYZ.NET",
+        "OS": "Windows 10 Enterprise x65",
+        "Environment": "N/A"
       }
     },
     {
@@ -172,11 +231,10 @@
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x65",
-        "FQDN": "NGDJTRJTRHR.XYZ.NET",
         "IP Address": "192.168.1.11",
-        "MAC Address": "03:5C:13:45:60:95"
+        "FQDN": "NGDJTRJTRHR.XYZ.NET",
+        "OS": "Windows 10 Enterprise x65",
+        "Environment": "N/A"
       }
     }
   ]
