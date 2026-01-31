@@ -23,12 +23,12 @@
         "Company": "ABC",
         "Transit": "3330",
         "Location Name": "Building false Creek",
-        "Environment": "PRODUCTION",
+        "Address": "103 2nd Ave West, Vancouver , BC, V5Y1B8, CA",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x64",
         "FQDN": "RCTVYBUBYCE.ABC.NET",
         "IP Address": "192.168.1.1",
-        "MAC Address": "03:5C:99:45:06:56",
-        "Address": "103 2nd Ave West, Vancouver , BC, V5Y1B8, CA"
+        "MAC Address": "03:5C:99:45:06:56"
       }
     },
     {
@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.9606692,
-          50.9151529
+          -113.96066619999999,
+          50.915281900000004
         ]
       },
       "properties": {
@@ -48,12 +48,12 @@
         "Company": "XYZ",
         "Transit": "3090",
         "Location Name": "Building - McKenzie Tower",
-        "Environment": "PRODUCTION",
+        "Address": "4 High Street SE, Calgary, AB, T2Z3TB, CA",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x32",
         "FQDN": "TVYVYCEXTBIG.XYZ.NET",
         "IP Address": "192.168.1.2",
-        "MAC Address": "03:5C:99:34:90:30",
-        "Address": "4 High Street SE, Calgary, AB, T2Z3TB, CA"
+        "MAC Address": "03:5C:99:34:90:30"
       }
     },
     {
@@ -61,8 +61,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.1165849,
-          49.2095712
+          -123.1165309,
+          49.2094932
         ]
       },
       "properties": {
@@ -73,12 +73,12 @@
         "Company": "ABC",
         "Transit": "3097",
         "Location Name": "Building - Cambie",
-        "Environment": "PRODUCTION",
+        "Address": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x64",
         "FQDN": "TCRCTVYBUBU.ABC.COM",
         "IP Address": "192.168.1.3",
-        "MAC Address": "03:5C:99:00:60:56",
-        "Address": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA"
+        "MAC Address": "03:5C:99:00:60:56"
       }
     },
     {
@@ -86,8 +86,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.9606692,
-          50.9151529
+          -113.96066619999999,
+          50.915281900000004
         ]
       },
       "properties": {
@@ -98,12 +98,12 @@
         "Company": "XYZ",
         "Transit": "3090",
         "Location Name": "Building - McKenzie Tower",
-        "Environment": "PRODUCTION",
+        "Address": "4 High Street SE, Calgary, AB, T2Z3TB, CA",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x32",
         "FQDN": "DSFGARGRVRI.XYZ.NET",
         "IP Address": "192.168.1.4",
-        "MAC Address": "03:5C:99:98:10:28",
-        "Address": "4 High Street SE, Calgary, AB, T2Z3TB, CA"
+        "MAC Address": "03:5C:99:98:10:28"
       }
     },
     {
@@ -111,8 +111,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.1165849,
-          49.2095712
+          -123.1165309,
+          49.2094932
         ]
       },
       "properties": {
@@ -123,12 +123,12 @@
         "Company": "ABC",
         "Transit": "3097",
         "Location Name": "Building - Cambie",
-        "Environment": "PRODUCTION",
+        "Address": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x64",
         "FQDN": "FVSDARGRVRO.ABC.COM",
         "IP Address": "192.168.1.5",
-        "MAC Address": "03:5C:13:45:60:89",
-        "Address": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA"
+        "MAC Address": "03:5C:13:45:60:89"
       }
     },
     {
@@ -148,12 +148,12 @@
         "Company": "ABC",
         "Transit": "2798",
         "Location Name": "",
-        "Environment": "PRODUCTION",
+        "Address": "438 UNIVERSITY AVENUE, Toronto, ON, M5G2K8, CA",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "FAGRWGBRGA.XYZ.NET",
         "IP Address": "192.168.1.6",
-        "MAC Address": "03:5C:13:45:60:90",
-        "Address": "438 UNIVERSITY AVENUE, Toronto, ON, M5G2K8, CA"
+        "MAC Address": "03:5C:13:45:60:90"
       }
     },
     {
@@ -161,8 +161,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.3834744,
-          43.6511085
+          -79.3835674,
+          43.6510095
         ]
       },
       "properties": {
@@ -173,12 +173,12 @@
         "Company": "ABC",
         "Transit": "2487",
         "Location Name": "",
-        "Environment": "PRODUCTION",
+        "Address": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "FDSAGRVFRGR.XYZ.NET",
         "IP Address": "192.168.1.7",
-        "MAC Address": "03:5C:13:45:60:91",
-        "Address": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA"
+        "MAC Address": "03:5C:13:45:60:91"
       }
     },
     {
@@ -186,8 +186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.3834744,
-          43.6511085
+          -79.3835674,
+          43.6510095
         ]
       },
       "properties": {
@@ -198,12 +198,12 @@
         "Company": "ABC",
         "Transit": "",
         "Location Name": "",
-        "Environment": "PRODUCTION",
+        "Address": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "FDVBFABFBDF.XYZ.NET",
         "IP Address": "192.168.1.8",
-        "MAC Address": "03:5C:13:45:60:92",
-        "Address": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA"
+        "MAC Address": "03:5C:13:45:60:92"
       }
     },
     {
@@ -223,12 +223,12 @@
         "Company": "ABC",
         "Transit": "",
         "Location Name": "Pace Plaza",
-        "Environment": "PRODUCTION",
+        "Address": "1 Pace Plaza, New York, NY, 10038, US",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "BGFSHGNBGX.XYZ.NET",
         "IP Address": "192.168.1.9",
-        "MAC Address": "03:5C:13:45:60:93",
-        "Address": "1 Pace Plaza, New York, NY, 10038, US"
+        "MAC Address": "03:5C:13:45:60:93"
       }
     },
     {
@@ -248,12 +248,12 @@
         "Company": "ABC",
         "Transit": "",
         "Location Name": "7-Eleven",
-        "Environment": "PRODUCTION",
+        "Address": "48 N Wells St, Chicago, IL, 60606, US",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "GJNTSTHGTTD.XYZ.NET",
         "IP Address": "192.168.1.10",
-        "MAC Address": "03:5C:13:45:60:94",
-        "Address": "48 N Wells St, Chicago, IL, 60606, US"
+        "MAC Address": "03:5C:13:45:60:94"
       }
     },
     {
@@ -273,17 +273,25 @@
         "Company": "ABC",
         "Transit": "",
         "Location Name": "7-Eleven",
-        "Environment": "PRODUCTION",
+        "Address": "135 W Madison, Chicago, IL, 60603, US",
+        "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "NGDJTRJTRHR.XYZ.NET",
         "IP Address": "192.168.1.11",
-        "MAC Address": "03:5C:13:45:60:95",
-        "Address": "135 W Madison, Chicago, IL, 60603, US"
+        "MAC Address": "03:5C:13:45:60:95"
       }
     }
   ]
 }
 ```
+
+## Shared Locations
+
+The following addresses have multiple ATMs:
+
+- Coordinates (-113.96067, 50.91515): 2 ATMs
+- Coordinates (-123.11658, 49.20957): 2 ATMs
+- Coordinates (-79.38347, 43.65111): 2 ATMs
 
 ---
 
