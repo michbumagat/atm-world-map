@@ -1,6 +1,15 @@
 # ATM Deployment Map
 
-**Total ATMs Mapped:** 11
+**Total ATMs:** 11  
+**Unique Locations:** 8  
+
+## 🏢 Locations with Multiple ATMs
+
+- **4 High Street SE, Calgary, AB, T2Z3TB, CA**: 2 ATMs  
+  - Asset Tag: 1002, S/N: 95445774223\n  - Asset Tag: 1004, S/N: 95415913484\n- **480 SW Marine Drive, Vancouver , BC, V5X0C4, CA**: 2 ATMs  
+  - Asset Tag: 1003, S/N: 45678754321\n  - Asset Tag: 1005, S/N: 26948168184\n- **123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA**: 2 ATMs  
+  - Asset Tag: 1007, S/N: 16874818484\n  - Asset Tag: 1008, S/N: 16874818485\n
+## Map View
 
 ```geojson
 {
@@ -16,14 +25,13 @@
         ]
       },
       "properties": {
+        "Location": "103 2nd Ave West, Vancouver , BC, V5Y1B8, CA",
         "Asset Tag": "1001",
         "Serial Number": "24554322456",
         "Model ID": "NCR6684",
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "3330",
-        "Location Name": "Building false Creek",
-        "Address": "103 2nd Ave West, Vancouver , BC, V5Y1B8, CA",
         "Environment": "",
         "OS": "Windows 10 Enterprise x64",
         "FQDN": "RCTVYBUBYCE.ABC.NET",
@@ -36,24 +44,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.96066619999999,
-          50.915281900000004
+          -113.9606692,
+          50.9151529
         ]
       },
       "properties": {
-        "Asset Tag": "1002",
-        "Serial Number": "95445774223",
-        "Model ID": "NCR6684",
-        "Manufacturer": "NCR",
-        "Company": "XYZ",
-        "Transit": "3090",
-        "Location Name": "Building - McKenzie Tower",
-        "Address": "4 High Street SE, Calgary, AB, T2Z3TB, CA",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x32",
-        "FQDN": "TVYVYCEXTBIG.XYZ.NET",
-        "IP Address": "192.168.1.2",
-        "MAC Address": "03:5C:99:34:90:30"
+        "Location": "4 High Street SE, Calgary, AB, T2Z3TB, CA",
+        "\u26a0\ufe0f  Multiple ATMs": "2 units at this location",
+        "ATM Details": "ATM #1: Asset Tag: 1002, S/N: 95445774223, Model: NCR6684, Transit: 3090, IP: 192.168.1.2 | ATM #2: Asset Tag: 1004, S/N: 95415913484, Model: NCR6684, Transit: 3090, IP: 192.168.1.4",
+        "All Asset Tags": "1002, 1004",
+        "All Serial Numbers": "95445774223, 95415913484"
       }
     },
     {
@@ -61,74 +61,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.1165309,
-          49.2094932
+          -123.1165849,
+          49.2095712
         ]
       },
       "properties": {
-        "Asset Tag": "1003",
-        "Serial Number": "45678754321",
-        "Model ID": "NCR6684",
-        "Manufacturer": "NCR",
-        "Company": "ABC",
-        "Transit": "3097",
-        "Location Name": "Building - Cambie",
-        "Address": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x64",
-        "FQDN": "TCRCTVYBUBU.ABC.COM",
-        "IP Address": "192.168.1.3",
-        "MAC Address": "03:5C:99:00:60:56"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.96066619999999,
-          50.915281900000004
-        ]
-      },
-      "properties": {
-        "Asset Tag": "1004",
-        "Serial Number": "95415913484",
-        "Model ID": "NCR6684",
-        "Manufacturer": "NCR",
-        "Company": "XYZ",
-        "Transit": "3090",
-        "Location Name": "Building - McKenzie Tower",
-        "Address": "4 High Street SE, Calgary, AB, T2Z3TB, CA",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x32",
-        "FQDN": "DSFGARGRVRI.XYZ.NET",
-        "IP Address": "192.168.1.4",
-        "MAC Address": "03:5C:99:98:10:28"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.1165309,
-          49.2094932
-        ]
-      },
-      "properties": {
-        "Asset Tag": "1005",
-        "Serial Number": "26948168184",
-        "Model ID": "NCR6684",
-        "Manufacturer": "NCR",
-        "Company": "ABC",
-        "Transit": "3097",
-        "Location Name": "Building - Cambie",
-        "Address": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x64",
-        "FQDN": "FVSDARGRVRO.ABC.COM",
-        "IP Address": "192.168.1.5",
-        "MAC Address": "03:5C:13:45:60:89"
+        "Location": "480 SW Marine Drive, Vancouver , BC, V5X0C4, CA",
+        "\u26a0\ufe0f  Multiple ATMs": "2 units at this location",
+        "ATM Details": "ATM #1: Asset Tag: 1003, S/N: 45678754321, Model: NCR6684, Transit: 3097, IP: 192.168.1.3 | ATM #2: Asset Tag: 1005, S/N: 26948168184, Model: NCR6684, Transit: 3097, IP: 192.168.1.5",
+        "All Asset Tags": "1003, 1005",
+        "All Serial Numbers": "45678754321, 26948168184"
       }
     },
     {
@@ -141,14 +83,13 @@
         ]
       },
       "properties": {
+        "Location": "438 UNIVERSITY AVENUE, Toronto, ON, M5G2K8, CA",
         "Asset Tag": "1006",
         "Serial Number": "21816887871",
         "Model ID": "NCR6684",
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "2798",
-        "Location Name": "",
-        "Address": "438 UNIVERSITY AVENUE, Toronto, ON, M5G2K8, CA",
         "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "FAGRWGBRGA.XYZ.NET",
@@ -161,49 +102,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.3835674,
-          43.6510095
+          -79.3834744,
+          43.6511085
         ]
       },
       "properties": {
-        "Asset Tag": "1007",
-        "Serial Number": "16874818484",
-        "Model ID": "NCR6684",
-        "Manufacturer": "NCR",
-        "Company": "ABC",
-        "Transit": "2487",
-        "Location Name": "",
-        "Address": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x65",
-        "FQDN": "FDSAGRVFRGR.XYZ.NET",
-        "IP Address": "192.168.1.7",
-        "MAC Address": "03:5C:13:45:60:91"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.3835674,
-          43.6510095
-        ]
-      },
-      "properties": {
-        "Asset Tag": "1008",
-        "Serial Number": "16874818485",
-        "Model ID": "NCR6684",
-        "Manufacturer": "NCR",
-        "Company": "ABC",
-        "Transit": "",
-        "Location Name": "",
-        "Address": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA",
-        "Environment": "",
-        "OS": "Windows 10 Enterprise x65",
-        "FQDN": "FDVBFABFBDF.XYZ.NET",
-        "IP Address": "192.168.1.8",
-        "MAC Address": "03:5C:13:45:60:92"
+        "Location": "123 QUEEN STREET WEST, Toronto, ON, M5H2M9, CA",
+        "\u26a0\ufe0f  Multiple ATMs": "2 units at this location",
+        "ATM Details": "ATM #1: Asset Tag: 1007, S/N: 16874818484, Model: NCR6684, Transit: 2487, IP: 192.168.1.7 | ATM #2: Asset Tag: 1008, S/N: 16874818485, Model: NCR6684, Transit: , IP: 192.168.1.8",
+        "All Asset Tags": "1007, 1008",
+        "All Serial Numbers": "16874818484, 16874818485"
       }
     },
     {
@@ -216,14 +124,13 @@
         ]
       },
       "properties": {
+        "Location": "1 Pace Plaza, New York, NY, 10038, US",
         "Asset Tag": "1009",
         "Serial Number": "16874818486",
         "Model ID": "NCR6684",
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "",
-        "Location Name": "Pace Plaza",
-        "Address": "1 Pace Plaza, New York, NY, 10038, US",
         "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "BGFSHGNBGX.XYZ.NET",
@@ -241,14 +148,13 @@
         ]
       },
       "properties": {
+        "Location": "48 N Wells St, Chicago, IL, 60606, US",
         "Asset Tag": "1010",
         "Serial Number": "16874818487",
         "Model ID": "NCR6684",
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "",
-        "Location Name": "7-Eleven",
-        "Address": "48 N Wells St, Chicago, IL, 60606, US",
         "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "GJNTSTHGTTD.XYZ.NET",
@@ -266,14 +172,13 @@
         ]
       },
       "properties": {
+        "Location": "135 W Madison, Chicago, IL, 60603, US",
         "Asset Tag": "1011",
         "Serial Number": "16874818488",
         "Model ID": "NCR6684",
         "Manufacturer": "NCR",
         "Company": "ABC",
         "Transit": "",
-        "Location Name": "7-Eleven",
-        "Address": "135 W Madison, Chicago, IL, 60603, US",
         "Environment": "",
         "OS": "Windows 10 Enterprise x65",
         "FQDN": "NGDJTRJTRHR.XYZ.NET",
@@ -284,14 +189,6 @@
   ]
 }
 ```
-
-## Shared Locations
-
-The following addresses have multiple ATMs:
-
-- Coordinates (-113.96067, 50.91515): 2 ATMs
-- Coordinates (-123.11658, 49.20957): 2 ATMs
-- Coordinates (-79.38347, 43.65111): 2 ATMs
 
 ---
 
